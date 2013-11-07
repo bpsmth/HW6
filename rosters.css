@@ -1,0 +1,58 @@
+﻿
+
+body{margin: 0px; background-color: white;}
+
+#container{width:1024px; margin:20px auto; overflow: hidden; border: solid 10px; border-color:#FFFFFF}
+#header { padding: 10px; background-color:#D4001F;}
+
+#menu{text-align:center;border-bottom: solid 2px #696969;}
+
+#content{ float:left; width: 1024px; padding:20px; height: 800px;border-right: solid 2px black;}
+
+#footer{float: left; width:1024px; padding:10px; height: 70px; border-top: solid 2px #696969;}
+
+#menu li  { display: inline; list-style-type: none; font-size: 20px ;}
+
+#contact {margin: 20px; padding:10px; text-align:center;
+}
+p.about {margin: 50px;
+}
+
+
+h1.banner {text-align:center;font-weight:900; color: black;}
+.description {text-align:center; font-weight:600;color:black;}
+h4.foot {text-align:center; font-weight:600;}
+
+
+
+.details{margin:25px 210px; Height:500px; width:600px; border: solid 2px #696969;}
+        .details td {padding: 15px; width: 300px; font-size:14pt;border: solid 2px #696969;}
+    .details .fheader {
+        background-color: #F08080;
+        text-align: right;
+        color: white;
+    }
+    .details .recipeitems td{
+        background-color: #F08080;
+        text-align: right;
+    }
+
+    .details .command {
+        text-align: center;
+        background-color: white;
+        border: none;
+    }
+  
+.Grids {width: 96%; border: 2px solid black; margin: 5px 0 10px 0;
+}
+    .Grids td {border: 2px solid black; padding: 10px; background-color:white; text-align:center; width: 33%; font-size:14pt;
+    }
+    .Grids th {
+        border: 2px solid black;
+        background-color: #F08080;
+        text-align: center;
+        color:white;
+        font-size:16pt;
+
+        
+    } 

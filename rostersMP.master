@@ -1,0 +1,44 @@
+﻿<%@ Master Language="VB" CodeFile="rostersMP.master.vb" Inherits="rostersMP" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="rosters.css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="container">
+<div id="header">
+		<!--This div is for the banner/top of the site-->
+		<h1 class="banner">Chicago Bulls Team Roster</h1>
+		<h2 class="description">2013-2014</h2>
+        <p class="description">
+            <asp:Label ID="currentLbl" runat="server" CssClass="description"></asp:Label>
+        </p>
+	</div>
+<div id="menu">
+		<!--This div is for the nav menu for the site-->     
+</div>
+<div id="content">
+    <!--This div is for the dynamic content for the site-->
+
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+ </div>
+<div id="footer">
+    <!--This div is for the footer menu for the site-->   
+	<h4 class="foot">&copy; 6K:183 Software Design & Development</h4>
+</div>
+</div>
+
+
+    </form>
+</body>
+</html>
