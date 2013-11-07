@@ -11,7 +11,11 @@ body{margin: 0px; background-color: white;}
 
 #footer{float: left; width:1024px; padding:10px; height: 70px; border-top: solid 2px #696969;}
 
-#menu li  { display: inline; list-style-type: none; font-size: 20px ;}
+#menu li  { display: inline; list-style-type: none; font-size: 20px ; text-align:center;}
+
+#menu a { text-align:center; margin-left:10px;
+}
+
 
 #contact {margin: 20px; padding:10px; text-align:center;
 }
@@ -55,4 +59,7 @@ h4.foot {text-align:center; font-weight:600;}
         font-size:16pt;
 
         
-    } 
+    }
+
+.menuc {text-align:center; border-left:solid 5px red;
+}

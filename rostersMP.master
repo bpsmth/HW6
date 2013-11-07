@@ -22,7 +22,16 @@
         </p>
 	</div>
 <div id="menu">
+
 		<!--This div is for the nav menu for the site-->     
+    <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" orientation="Horizontal">
+        <LevelMenuItemStyles>
+            <asp:MenuItemStyle Cssclass="menuc"/>
+
+        </LevelMenuItemStyles>
+
+    </asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
 </div>
 <div id="content">
     <!--This div is for the dynamic content for the site-->
