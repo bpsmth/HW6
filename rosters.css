@@ -1,65 +1,69 @@
 ﻿
 
-body{margin: 0px; background-color: white;}
+body{margin: 0px; background-color: grey;}
 
 #container{width:1024px; margin:20px auto; overflow: hidden; border: solid 10px; border-color:#FFFFFF}
-#header { padding: 10px; background-color:#D4001F;}
+#header { padding: 10px; background-color:#D4001F; border-bottom:solid 2px white; }
 
-#menu{text-align:center;border-bottom: solid 2px #696969;}
+#menu{text-align:center;border-bottom: solid 2px white;background-color:black; padding:10px;background-color:#D4001F;}
 
-#content{ float:left; width: 1024px; padding:20px; height: 800px;border-right: solid 2px black;}
 
-#footer{float: left; width:1024px; padding:10px; height: 70px; border-top: solid 2px #696969;}
+#content{ float:left; width: 1024px; padding:20px; height: auto; border-right: solid 2px black; text-align:center;}
 
-#menu li  { display: inline; list-style-type: none; font-size: 20px ; text-align:center;}
-
-#menu a { text-align:center; margin-left:10px;
-}
-
+#footer{float: left; width:1024px; padding:10px; height: 70px; border-top: solid 2px white; background-color:#D4001F;}
 
 #contact {margin: 20px; padding:10px; text-align:center;
 }
+
+
 p.about {margin: 50px;
 }
 
+.photo {
+    height:350px;
+    width: 500px;
+    border:10px solid #D4001F;
+}
 
+
+
+.Grids {border: 2px solid black; margin: 5px auto 10px auto; width: auto;
+}
+    .Grids td {border: 2px solid black; padding: 5px; background-color:white; text-align:center; font-size:14pt;
+    }
+    .Grids th {
+        border: 2px solid black;
+        background-color: #D4001F;
+        text-align: center;
+        color:white;
+        font-size:16pt;
+        padding:5px;
+        
+    }
+
+.details{margin:auto;  border: solid 2px white;}
+    .details td {padding: 15px; width: 300px; font-size:14pt;border: solid 2px white;}
+    .details .fheader {
+        background-color: #D4001F;
+        text-align: right;
+        color: white;
+    }
+
+    .details .command {
+        text-align: center;
+        background-color: black;
+        border: none;
+    }
+
+
+.menuc {
+margin:0 auto;
+width:100%;
+}
+    
 h1.banner {text-align:center;font-weight:900; color: black;}
 .description {text-align:center; font-weight:600;color:black;}
 h4.foot {text-align:center; font-weight:600;}
 
 
 
-.details{margin:25px 210px; Height:500px; width:600px; border: solid 2px #696969;}
-        .details td {padding: 15px; width: 300px; font-size:14pt;border: solid 2px #696969;}
-    .details .fheader {
-        background-color: #F08080;
-        text-align: right;
-        color: white;
-    }
-    .details .recipeitems td{
-        background-color: #F08080;
-        text-align: right;
-    }
-
-    .details .command {
-        text-align: center;
-        background-color: white;
-        border: none;
-    }
-  
-.Grids {width: 96%; border: 2px solid black; margin: 5px 0 10px 0;
-}
-    .Grids td {border: 2px solid black; padding: 10px; background-color:white; text-align:center; width: 33%; font-size:14pt;
-    }
-    .Grids th {
-        border: 2px solid black;
-        background-color: #F08080;
-        text-align: center;
-        color:white;
-        font-size:16pt;
-
-        
-    }
-
-.menuc {text-align:center; border-left:solid 5px red;
-}

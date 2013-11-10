@@ -24,11 +24,7 @@
 <div id="menu">
 
 		<!--This div is for the nav menu for the site-->     
-    <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" orientation="Horizontal">
-        <LevelMenuItemStyles>
-            <asp:MenuItemStyle Cssclass="menuc"/>
-
-        </LevelMenuItemStyles>
+    <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" orientation="Horizontal" CssClass="menuc" RenderingMode="Table">
 
     </asp:Menu>
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
@@ -43,7 +39,7 @@
  </div>
 <div id="footer">
     <!--This div is for the footer menu for the site-->   
-	<h4 class="foot">&copy; 6K:183 Software Design & Development</h4>
+	<h4 class="foot">&copy; Braden Smith - 6K:183 Software Design & Development</h4>
 </div>
 </div>
 
